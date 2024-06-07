@@ -1,0 +1,15 @@
+Project Overview
+This project explores the application of Convolutional Neural Networks (CNNs) to solve a fundamental problem in computational theory 
+and physics: determining the solvability of two-dimensional (2D) mazes. By treating the maze as a binary matrix where passages and 
+walls are denoted by 1s and 0s respectively, this model attempts to predict whether a path from start to finish is possible.
+
+Methodology
+The research involves generating a large dataset of 2D mazes, each labeled as 'solvable' or 'unsolvable' based on Depth-first search 
+(DFS) algorithm results. We utilize a CNN model trained on these data points to learn and predict the solvability of any given maze 
+configuration. The CNN architecture includes multiple layers of convolution and pooling, followed by dense layers with dropout to 
+prevent overfitting.
+
+Results
+Initial tests show promising results with high accuracy in classifying mazes, demonstrating the CNN's ability to capture essential 
+features from the input matrices that dictate maze solvability. The project also explores the limitations of CNNs in capturing the 
+global properties necessary for solving mazes, suggesting areas for further research and improvement.
